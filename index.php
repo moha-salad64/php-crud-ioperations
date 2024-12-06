@@ -9,7 +9,7 @@
 <body>
     <div class="container my-3">
         <h2>List of Employee</h2>
-        <a class="btn btn-primary btn-sm my-2" href="/.create.php" >New Employee</a>
+        <a class="btn btn-primary btn-sm my-2" href="/employee/create.php" >New Employee</a>
         <table  class='table table-striped table-bordere'>
             <th>
                 <tr>
