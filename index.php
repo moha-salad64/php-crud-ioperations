@@ -9,7 +9,7 @@
 <body>
     <div class="container my-3">
         <h2>List of Employee</h2>
-        <a class="btn btn-primary btn-sm my-2" href="/employee/create.php" >New Employee</a>
+        <a class="btn btn-primary btn-sm p-1 fw-bold my-2" href="/employee/create.php" >New Employee</a>
         <table  class='table table-striped table-bordere'>
             <th>
                 <tr>
@@ -51,8 +51,8 @@
                     <td>$row[4]</td>
                     <td>$row[5]</td>
                     <td>
-                    <a class='btn btn-success btn-sm' href='/edit.php?id=$row[id]'>Edit</a>
-                    <a class='btn btn-danger btn-sm' href='/delet.php?id=$row[id]'>Delete</a>
+                    <a class='btn btn-success btn-sm' href='/employee/edit.php?id=$row[id]'>Edit</a>
+                    <a class='btn btn-danger btn-sm' href='/employee/delete.php?id=$row[id]'>Delete</a>
                     </td>
                     </tr>
                     ";
